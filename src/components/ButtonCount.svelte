@@ -17,5 +17,5 @@ function handleClick(){
     }
 </style>
 <button on:click={handleClick}>
-    Click{$count===0 ?"no hay datos":$count}
+    like {$count===0 ?"":$count}
 </button>
